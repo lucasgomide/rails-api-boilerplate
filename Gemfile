@@ -10,6 +10,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'redis'
 gem 'sidekiq'
 gem 'curb'
+gem 'dry-rails'
 
 group :development, :test do
   gem 'pry-byebug'
