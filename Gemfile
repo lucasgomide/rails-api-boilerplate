@@ -11,6 +11,7 @@ gem 'redis'
 gem 'sidekiq'
 gem 'curb'
 gem 'dry-rails'
+gem 'dry-monads'
 
 group :development, :test do
   gem 'pry-byebug'
