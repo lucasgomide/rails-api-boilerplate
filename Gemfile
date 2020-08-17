@@ -12,6 +12,7 @@ gem 'sidekiq'
 gem 'curb'
 gem 'dry-rails'
 gem 'dry-monads'
+gem 'sidekiq-scheduler'
 
 group :development, :test do
   gem 'pry-byebug'

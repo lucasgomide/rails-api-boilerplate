@@ -1,0 +1,8 @@
+:concurrency: <%= ENV.fetch('SIDEKIQ_CONCURRENCY', 10) %>
+:queues:
+  - default
+:schedule:
+  collect:
+    cron: '0 0 * * 0'
+    class: Worker
+
